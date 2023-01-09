@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+ 
+}
+
+/* Header Style */
+header{
+    background-image: url('../images/banner/banner3.png');
+    height: 100vh;
+    position: relative;
+    margin-bottom: 131px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header-container{
+    position: absolute;
+    width: 500px;
+    right: 0;
+    top:50%;
+    transform: translate(-23%,-50%);
+    text-align: right;
+}
+.header-title{
+    font-weight: 700;
+font-size: 65px;
+color: #ffff;
+margin-bottom: 24px;
+}
+.header-info{
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+.btn-primary{
+    padding:21px 26px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background:#28B9E4;
+    color:white;
+    transition: background-color 0.5s ease;
+}
+
+/* My failures of previous year section style */
+.failed-resolution{
+    display: flex;
+    gap:87px;
+    align-items: center;
+    margin-bottom: 129px;
+}
+.failed-resolution img{
+    height: 723px;
+}
+.pre-plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.pre-plan-info{
+    color: #444343;
+text-align: left;
+margin-bottom: 16px;
+}
+.pre-plan-list li{
+    list-style: none;
+    color: #444343;
+    margin-bottom: 8px;
+}
+.pre-plan-list li i{
+    margin-right: 10px;
+    color:#16D887;
+}
+/* My Plan Style */
+.plans-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.my-plans{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.plan img{
+    margin-bottom: 24px;
+    height: 92px;
+}
+.plan h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.plan p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+
+}
+
+
+/* Contact section start */
+
+#contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin:40px 0px;
+}
+
+#contact h3{
+    color: #1c3548;
+    font-size: 4rem;
+    margin: 20px;
+    font-weight: 400px;
+    letter-spacing: 1px;
+}
+
+#contact img{
+	height:600px;
+}
+
+.contact-input{
+	width:400px;
+	height:50px;
+	background-color:#FFFFFF;
+	display:flex;
+	justify-content: center;
+	border-radius: 50px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+}
+
+.contact-input input{
+	width:100%;
+	background-color: transparent;
+	border:none;
+	outline: none;
+	text-align: center;
+	color:#242425;
+}
+
+.contact-input a{
+	width:200px;
+	height:35px;
+	background-color:#1db096;
+	color:#FFFFFF;
+	display: flex;
+	font-size: 0.9rem;
+	justify-content: center;
+	align-items: center;
+	margin: auto 10px;
+	border-radius: 20px;
+	font-weight: 500;
+}
+
+.contact-input a:hover{
+    background-color: #23cdaf;
+    transition: all ease 0.2s;
+}
+
+/* More way to Contact */
+.contact{
+    text-align: center;
+    color: white;
+}
+
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: #39A4AC;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+}
+
+.contact-links{
+    text-align: center;
+   
+}
+
+.contact-way{
+    font-size: 40px;
+}
+
+
+.media-buttons .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: #05FFFF;
+}
+
+/* contact section end */
+
+/* mindset style */
+.mindset-section{
+    background-image:linear-gradient(to right,rgb(13, 153, 255),rgba(255, 255, 255, 0)) ,url('../images/watch.png');
+    padding:39px 500px 39px 64px ;
+    margin-bottom: 130px;
+    margin-top: 130px;
+    border-radius: 5px;
+}
+.mindset-section h2{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+/* footer section */
+footer{
+
+    background-color: #151414;
+}
+.footer-section{
+    padding: 120px 0px;
+    display: flex;
+    gap:330px;
+    color: white;
+}
+.btn-secondary{
+    padding:21px 26px;
+    background: #005FAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-secondary:hover{
+    background: #FFFFFF;
+    color: #005FAC;
+    transition: background-color 0.5s ease;
+}
+/* future style */
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom:16px;
+}
+.future-info{
+    margin-bottom:24px ;
+}
+.contacts p:first-child{
+    margin-bottom: 16px;
+}
+.contacts p:nth-child(2){
+    margin-bottom: 16px;
+}
+.social img{
+    margin-right: 16px;
+}
+/* subscription style*/
+.subscription h4{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.subscription input[type=email]{
+    width: 325px;
+    height: 64px;
+    margin-bottom: 16px;
+    background: none;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 15px;
+    font-size:18px ;
+}
+.subscription input[type=email]:focus{
+    color: white;
+    outline: none;
+}
